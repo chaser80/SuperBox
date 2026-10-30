@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - 'nb4a.properties'
+      - '.github/workflows/build.yml'
 jobs:
   libcore:
     name: Native Build (LibCore)
