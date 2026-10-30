@@ -7,6 +7,8 @@ on:
     paths:
       - 'nb4a.properties'
       - '.github/workflows/build.yml'
+      - 'app/src/main/res/**'
+      - 'app/src/main/AndroidManifest.xml'
 jobs:
   libcore:
     name: Native Build (LibCore)
